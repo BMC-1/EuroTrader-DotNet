@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuroTrader-Backend", "EuroTrader-Backend\EuroTrader-Backend.csproj", "{287156AB-FDC7-4A11-B66F-C66FFB52B528}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.API", "01.API", "{28D16212-964B-42F6-B11F-5BD2600F8567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Data/Domain", "02.Data/Domain", "{EC617F32-6F39-485B-AB4E-7D51FCC9D093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{30C999A5-05CB-4CA2-A65C-B4F76F414A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{45DC02D0-5185-48EB-89F3-AD5DEF439B9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{287156AB-FDC7-4A11-B66F-C66FFB52B528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287156AB-FDC7-4A11-B66F-C66FFB52B528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287156AB-FDC7-4A11-B66F-C66FFB52B528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287156AB-FDC7-4A11-B66F-C66FFB52B528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C999A5-05CB-4CA2-A65C-B4F76F414A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C999A5-05CB-4CA2-A65C-B4F76F414A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C999A5-05CB-4CA2-A65C-B4F76F414A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C999A5-05CB-4CA2-A65C-B4F76F414A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DC02D0-5185-48EB-89F3-AD5DEF439B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DC02D0-5185-48EB-89F3-AD5DEF439B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DC02D0-5185-48EB-89F3-AD5DEF439B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DC02D0-5185-48EB-89F3-AD5DEF439B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{287156AB-FDC7-4A11-B66F-C66FFB52B528} = {28D16212-964B-42F6-B11F-5BD2600F8567}
+		{30C999A5-05CB-4CA2-A65C-B4F76F414A9C} = {EC617F32-6F39-485B-AB4E-7D51FCC9D093}
+		{45DC02D0-5185-48EB-89F3-AD5DEF439B9A} = {EC617F32-6F39-485B-AB4E-7D51FCC9D093}
+	EndGlobalSection
+EndGlobal
